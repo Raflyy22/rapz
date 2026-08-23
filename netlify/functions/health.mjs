@@ -1,1 +1,5 @@
-
+export default async () => ({
+  statusCode: 200,
+  headers: {"content-type":"application/json"},
+  body: JSON.stringify({ok:true,service:"rapz-digital-store"})
+});
